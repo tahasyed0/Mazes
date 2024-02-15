@@ -1,0 +1,11 @@
+name: Mazes
+version: '${project.version}'
+main: me.name.mazes.Mazes
+api-version: 1.19
+commands:
+  position:
+    aliases: [pos]
+    permission: mazes.position
+  maze:
+    permission: mazes.maze
+
